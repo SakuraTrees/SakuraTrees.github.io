@@ -1,0 +1,70 @@
+
+/* 直接写是标签对,
+ *#表示id
+ * .表示class
+ */
+body{
+   
+    /* margin: 0;
+    height: 100vh; */
+    background-image: url('../img/bg.jpg');
+    background-size: 100% auto;
+    /* background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* width: 50%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 35%; */
+
+}
+#Login-box{
+    /* width: 60%; */
+    margin: 0px auto;
+    margin-top: 12%;
+    width: 30%;
+    height: 300px;
+    background-color: #00000070;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+#Login-box h1{
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+#Login-box .item{
+    margin-top: 15px;
+}
+
+#Login-box .item input{
+    font-size: 18px;
+    background-color: #ffffff00;
+    border: 0px;
+    border-bottom: 2px solid #ffffff;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+#Login-box .item i{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+
+#Login-box .button input{
+    margin-top: 40px;
+    height: 40px;
+    width: 50%;
+    border: 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #ff8177 0%, #b12a5b 100%);
+    border-radius: 20px;
+}
